@@ -85,8 +85,8 @@ array.slice(index start, index end)*/
 "Yeezy", "Kimmy K" and "Lamar Odom". Unfriend these ungrateful people and assign them to a new variable named `unFriend`. Console.log this new variable.*/
 
 var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
-
-
+var unFriend = fbFriends.slice(1, 4);
+console.log(unFriend);
 
 
 
